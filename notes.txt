@@ -1,0 +1,28 @@
+string private baseURI = "https://clonex-assets.rtfkt.com/";
+string public baseExtension = ".json";
+string public notRevealedUri = "https://gateway.pinata.cloud/ipfs/QmeVjgdDUMsdDhCyvhy7KWqqhY7VNwZCsdtr3DPQ3RUUEZ?preview=1";
+
+
+unrevealed project ape metadata = https://gateway.pinata.cloud/ipfs/QmfA4QedoT5gztQc4X56FGCCYDqxAV14Wt8oJ7TzeJATrS?preview=1
+
+BAYC revealed tokenURI = ipfs://QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/
+Psychedelics Anonymous revealed tokenURI = ipfs://QmdRAvWJa2Ck3pQPVni1DhYHc1zZNvJnZWAacS3vfWuDYA/
+Angry ape army =  https://angryapes.mypinata.cloud/ipfs/QmPhREWNvNbKApuK577BpJRrjmEGYxsMkaWcgZiqtKaJ1Q/
+more than gamers = https://mtg-api-git-dev-mtg.vercel.app/api/
+my pet hooligan = https://mypethooligan.com/meta/
+
+commands:
+    start a project:
+    npx hardhat
+
+    compile the contract:
+    npx hardhat compile
+
+    Deploy contract on netowork
+    npx hardhat run scripts/deploy.js --network rinkeby
+
+    Verify conntract on etherscan
+    npx hardhat verify --constructor-args arguments.js --network rinkeby DEPLOYED_CONTRACT_ADDRESS
+
+    Run website instance:
+    npm start
